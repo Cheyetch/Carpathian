@@ -1,0 +1,5 @@
+# Ignore the build directory and all its contents
+build/
+
+# Ignore the compiled binary
+carpathian.exe

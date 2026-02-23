@@ -151,7 +151,7 @@ int compute_phase() {
     const int BishopPhase = 1;
     const int RookPhase = 2;
     const int QueenPhase = 4;
-    const int TotalPhase = KnightPhase*4 + BishopPhase*4 + RookPhase*4 + QueenPhase*2;
+    //const int TotalPhase = KnightPhase*4 + BishopPhase*4 + RookPhase*4 + QueenPhase*2;
 
     int game_phase = 0;
 
@@ -177,7 +177,7 @@ int eval_pawns() {
     int opening = 0;
     int endgame = 0;
     int sq;
-    BITBOARD mask = 0;
+    //BITBOARD mask = 0;
 
     BITBOARD bb = game.piece[wPawn];
     while (bb) {
