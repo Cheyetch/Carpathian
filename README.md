@@ -1,2 +1,2 @@
 # Carpathian
-An UCI Chess playing program
+An UCI chess playing program
